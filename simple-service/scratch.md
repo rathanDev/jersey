@@ -8,4 +8,12 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
 
 mvn clean test
 
+to check it in browser
 http://localhost:8080/myapp/myresource
+
+or
+curl http://localhost:8080/myapp/myresource
+
+To run it in stand alone mode
+mvn exec:java
+
