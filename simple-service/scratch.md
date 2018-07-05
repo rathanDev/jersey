@@ -7,3 +7,5 @@ mvn archetype:generate -DarchetypeArtifactId=jersey-quickstart-grizzly2 \
 -DarchetypeVersion=2.27
 
 mvn clean test
+
+http://localhost:8080/myapp/myresource
